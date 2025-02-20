@@ -1,17 +1,27 @@
 body {
 	font-family: Arial, sans-serif;
-	background-color: #f4f4f4;
+	background-color: #B0C4DE;
 	margin: 0;
 	padding: 0;
 }
 
-h1,
+h1 {
+	font-weight: bold;
+	font-size: 5rem;
+	line-height: 10rem;
+}
+
 h2,
 h3 {
 	color: #333;
 	font-weight: bold;
+	line-height: 3rem;
 }
 
 section {
 	color: blueviolet;
+}
+
+p2 {
+	line-height: 3rem;
 }
