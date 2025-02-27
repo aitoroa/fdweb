@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0, 75rem;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+
+  background-color: #ffffff;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+}
+
+.flex-container > div {
+  background: #ff98cc;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.item1 {
+  /* flex:1 1 auto; */
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-self: auto;
+}
+
+.item2 {
+  /* flex:1 1 auto; */
+  order: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.item3 {
+  /* flex:1 1 auto; */
+  flex-grow: 1;
+}
+
+p2 {
+  line-height: 5rem;
+}
