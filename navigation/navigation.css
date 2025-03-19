@@ -1,0 +1,77 @@
+.flex-container {
+
+    display: flex;
+    
+    justify-content: space-between;     
+
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+  .flex-container > div{
+    background: #000000;
+    border: 3px solid #00ffd5;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+
+  .item1 { 
+    /* flex:0 1 auto; */
+    align-self:flex-start;
+  }
+			
+  .item2 { 
+    /* flex:0 1 auto; */
+    align-self:flex-start;
+  }
+			
+  .item3 { 
+    /* flex:0 1 auto; */
+    align-self:flex-start;
+  }
+			
+  .item4 { 
+    /* flex:0 1 auto; */
+    align-self:flex-start;
+  }
+			
+  .item5 { 
+    /* flex:0 1 auto; */
+    order:0;
+    flex-shrink:1;
+    align-self:flex-start;
+  }
+
+  .item1:hover {
+    background: #ffffff;
+    border: 3px solid #000000;
+    color: rgb(0, 0, 0);
+  }
+
+  .item2:hover {
+    background: #ffffff;
+    border: 3px solid #000000;
+    color: rgb(0, 0, 0);
+  }
+
+  .item3:hover {
+    background: #ffffff;
+    border: 3px solid #000000;
+    color: rgb(0, 0, 0);
+  }
+
+  .item4:hover {
+    background: #ffffff;
+    border: 3px solid #000000;
+    color: rgb(0, 0, 0);
+  }
+
+  .item5:hover {
+    background: #ffffff;
+    border: 3px solid #000000;
+    color: rgb(0, 0, 0);
+  }
