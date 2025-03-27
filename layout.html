@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ejemplo Position</title>
+		<style>.caja {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        .imagen  {
+            width: 41%;
+            height: auto;
+            float: left;
+            margin-right: 10px;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+        }
+        .perfil {
+	display: flex;
+	align-items: center;
+	background: linear-gradient(135deg, #667eea, #764ba2);
+	padding: 20px;
+	border-radius: 15px;
+	color: white;
+}
+.perfil img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+        </style>
+	</head>
+	<body>
+        <nav class="menu">
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </nav>
+		<div class="caja"></div>
+        <div>
+            <img src="https://preview.redd.it/whats-the-name-of-this-cat-v0-y6nk7tjck6rd1.jpeg?width=640&crop=smart&auto=webp&s=4a0305ddad63f90eb0ddb5ca53c8675f5d4c51f4" class="imagen" id="image1" />
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+        </div>
+         <!--Tarjeta-->
+         <div class="perfil">
+            <img src="https://gizmodo.com/app/uploads/2025/03/NightmareVance.jpg" />
+            <div>
+            <h3>Nombre del Usuario</h3>
+            <p>Diseñador Web</p>
+        </div>
+    </div>
+	</body>
+</html>
