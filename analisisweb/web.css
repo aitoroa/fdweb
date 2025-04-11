@@ -26,6 +26,7 @@ img {
 p {
   line-height: 1.7;
   margin-bottom: 1.5rem;
+  text-align: justify;
 }
 h2 {
   margin-top: 2rem;
@@ -35,7 +36,7 @@ footer {
   background-color: #111;
   color: whitesmoke;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
   font-size: 0.95rem;
   margin-top: 3rem;
 }
