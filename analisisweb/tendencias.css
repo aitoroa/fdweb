@@ -20,26 +20,44 @@ section {
   margin-bottom: 3rem;
   background: white;
   padding: 1.5rem;
-  border-radius: 12px;
+  border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(0.65rem, 6vw, 2rem);
+  font-weight: 700;
+}
 h2 {
+  margin-top: 0rem;
+  margin-bottom: 1.2rem;
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(0.5rem, 4vw, 1.5rem);
+  font-weight: 600;
   color: #111;
+}
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(0.35rem, 2.5vw, 0.95rem);
+  line-height: 1.6;
+  font-weight: 400;
 }
 a.img-link {
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 15px;
   transition: transform 0.3s ease;
 }
 img:hover {
   transform: scale(1.02);
 }
 p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(0.35rem, 2.5vw, 0.95rem);
   line-height: 1.6;
 }
 footer {

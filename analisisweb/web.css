@@ -23,13 +23,26 @@ img {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
+f {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(0.35rem, 2.5vw, 0.95rem);
+  line-height: 1.6;
+}
 p {
   line-height: 1.7;
   margin-bottom: 1.5rem;
+  font-size: clamp(0.35rem, 2.5vw, 1rem);
   text-align: justify;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(0.65rem, 6vw, 2rem);
+  font-weight: 700;
 }
 h2 {
   margin-top: 2rem;
+  font-size: clamp(0.5rem, 4vw, 1.5rem);
+  font-weight: 600;
   color: #111;
 }
 footer {
@@ -49,7 +62,7 @@ footer {
   color: white;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.3rem;
+  font-size: clamp(0.5rem, 4vw, 1.3rem);
   border-radius: 0 0 10px 0;
   z-index: 1000;
 }
