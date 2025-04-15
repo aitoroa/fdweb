@@ -23,7 +23,7 @@ img {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
-f {
+span {
   font-family: "Space Grotesk", sans-serif;
   font-size: clamp(0.35rem, 3.1vw, 0.95rem);
   line-height: 1.6;
@@ -31,8 +31,13 @@ f {
 p {
   line-height: 1.7;
   margin-bottom: 1.5rem;
-  font-size: clamp(0.35rem, 3.1vw, 1rem);
+  font-size: clamp(0.35rem, 3.4vw, 1rem);
   text-align: justify;
+}
+@media (max-width: 600px) {
+  p {
+    text-align: left;
+  }
 }
 h1 {
   font-family: "Raleway", sans-serif;
@@ -50,7 +55,6 @@ footer {
   color: whitesmoke;
   text-align: center;
   padding: 1.95rem 0;
-  font-size: 0.95rem;
   margin-top: 3rem;
 }
 .back-button {
