@@ -38,7 +38,7 @@ h2 {
 }
 h3 {
   font-family: "Raleway", sans-serif;
-  font-size: clamp(0.35rem, 2.5vw, 0.95rem);
+  font-size: clamp(0.35rem, 3vw, 0.95rem);
   line-height: 1.6;
   font-weight: 400;
 }
@@ -57,7 +57,7 @@ img:hover {
 }
 p {
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(0.35rem, 2.5vw, 0.95rem);
+  font-size: clamp(0.35rem, 3vw, 0.95rem);
   line-height: 1.6;
 }
 footer {

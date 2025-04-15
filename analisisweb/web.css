@@ -25,13 +25,13 @@ img {
 }
 f {
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(0.35rem, 2.5vw, 0.95rem);
+  font-size: clamp(0.35rem, 3.1vw, 0.95rem);
   line-height: 1.6;
 }
 p {
   line-height: 1.7;
   margin-bottom: 1.5rem;
-  font-size: clamp(0.35rem, 2.5vw, 1rem);
+  font-size: clamp(0.35rem, 3.1vw, 1rem);
   text-align: justify;
 }
 h1 {
@@ -49,7 +49,7 @@ footer {
   background-color: #111;
   color: whitesmoke;
   text-align: center;
-  padding: 2rem 0;
+  padding: 1.95rem 0;
   font-size: 0.95rem;
   margin-top: 3rem;
 }
