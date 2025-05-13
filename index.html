@@ -3,83 +3,122 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi Primer Sitio Web</title>
-    <meta
-      name="description"
-      content="Aprende HTML y desarrollo web con las mejores prácticas."
-    />
-    <meta
-      name="keywords"
-      content="HTML, CSS, desarrollo web, SEO, accesibilidad"
-    />
-    <meta name="author" content="Tu Nombre" />
-    <meta name="robots" content="index, follow" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="./assets/icons/favicon/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="./assets/icons/favicon/favicon.svg"
-    />
-    <link rel="shortcut icon" href="./assets/icons/favicon/favicon.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/icons/favicon/apple-touch-icon.png"
-    />
-    <link rel="manifest" href="./assets/icons/favicon/manifest.json" />
-    <link rel="license" href="./license" />
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="./proyectofinal/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Bienvenido a Mi Sitio Web</h1>
-      <img
-        src="./assets/images/Web-Icon.png"
-        alt="Iconografía de Web"
-        height="400"
-      />
-      <img
-        src="https://ik.imagekit.io/aitoroa/UDIT/photo-1493246507139-91e8fad9978e.jpg?updatedAt=1739457435724"
-        alt="Fotografía de paisaje"
-        height="400"
-      />
-      <video height="400" controls>
-        <source
-          src="./assets/videos/Developer-Coding-Background.mp4"
-          type="video/mp4"
-        />
-        Tu navegador no soporta la etiqueta de video.
-      </video>
+    <header id="home">
+      <nav>
+        <ul>
+          <li><a href="#profile">Sobre mí</a></li>
+          <li><a href="#work">Portfolio</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="me-image">
+        <div class="me-text">
+          <h1>Aitor Ochoa</h1>
+          <p>
+            Diseñador gráfico enfocado en branding y comunicación audiovisual
+          </p>
+        </div>
+      </div>
     </header>
-    <nav>
-      <ul>
-        <li><a href="#about">Sobre mí</a></li>
-        <li><a href="#products">Productos</a></li>
-        <li><a href="mailto:aitorochoa10@gmail.com">Escríbeme</a></li>
-        <li><a href="tel:+123456789">Llámame</a></li>
-        <li>
-          <a target="_blank" href="https://es.search.yahoo.com/">Buscar</a>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <section id="about">
-        <h2>Sobre mí</h2>
-        <p lang="en" id="greetings">I am so happy</p>
-        <p lang="es" id="saludos">Estoy muy feliz</p>
-      </section>
-      <section id="products">
-        <h2>Productos</h2>
-        <p>Nuestros productos</p>
-      </section>
-    </main>
-    <footer>
-      <p2>© 2025 Mi Sitio Web</p2>
-    </footer>
+
+    <section id="profile">
+      <h2>Quién soy</h2>
+      <p>Contenido sobre ti aquí.</p>
+    </section>
+
+    <section id="work">
+      <h2>Lo que hago</h2>
+      <div class="proyectos-grid">
+        <label class="card" for="modal1">
+          <img
+            src="https://ik.imagekit.io/aitoroa/proyectofinal/Poster%20Tipogr%C3%A1fico.jpg?updatedAt=1747147351131"
+            alt="Proyecto 1"
+          />
+          <h3>Proyecto 1</h3>
+        </label>
+        <input type="checkbox" id="modal1" class="modal-toggle" hidden />
+        <div class="modal">
+          <label for="modal1" class="modal-background"></label>
+          <div class="modal-content">
+            <label for="modal1" class="close">&times;</label>
+            <h2>Proyecto 1</h2>
+            <img
+              src="https://ik.imagekit.io/aitoroa/proyectofinal/Poster%20Tipogr%C3%A1fico.jpg?updatedAt=1747147351131"
+              style="width: 100%; margin-bottom: 1rem"
+            />
+            <p>a</p>
+          </div>
+        </div>
+        <label class="card" for="modal2">
+          <img
+            src="https://ik.imagekit.io/aitoroa/proyectofinal/Poster%20Tipogr%C3%A1fico.jpg?updatedAt=1747147351131"
+            alt="Proyecto 2"
+          />
+          <h3>Proyecto 2</h3>
+        </label>
+        <input type="checkbox" id="modal2" class="modal-toggle" hidden />
+        <div class="modal">
+          <label for="modal2" class="modal-background"></label>
+          <div class="modal-content">
+            <label for="modal2" class="close">&times;</label>
+            <h2>Proyecto 2</h2>
+            <img
+              src="https://ik.imagekit.io/aitoroa/proyectofinal/Poster%20Tipogr%C3%A1fico.jpg?updatedAt=1747147351131"
+              style="width: 100%; margin-bottom: 1rem"
+            />
+            <p>a</p>
+          </div>
+        </div>
+        <label class="card" for="modal3">
+          <img
+            src="https://ik.imagekit.io/aitoroa/proyectofinal/Poster%20Tipogr%C3%A1fico.jpg?updatedAt=1747147351131"
+            alt="Proyecto 3"
+          />
+          <h3>Proyecto 3</h3>
+        </label>
+        <input type="checkbox" id="modal3" class="modal-toggle" hidden />
+        <div class="modal">
+          <label for="modal3" class="modal-background"></label>
+          <div class="modal-content">
+            <label for="modal3" class="close">&times;</label>
+            <h2>Proyecto 3</h2>
+            <img
+              src="https://ik.imagekit.io/aitoroa/proyectofinal/Poster%20Tipogr%C3%A1fico.jpg?updatedAt=1747147351131"
+              style="width: 100%; margin-bottom: 1rem"
+            />
+            <p>a</p>
+          </div>
+        </div>
+        <label class="card" for="modal4">
+          <img
+            src="https://ik.imagekit.io/aitoroa/proyectofinal/Poster%20Tipogr%C3%A1fico.jpg?updatedAt=1747147351131"
+            alt="Proyecto 4"
+          />
+          <h3>Proyecto 4</h3>
+        </label>
+        <input type="checkbox" id="modal4" class="modal-toggle" hidden />
+        <div class="modal">
+          <label for="modal4" class="modal-background"></label>
+          <div class="modal-content">
+            <label for="modal4" class="close">&times;</label>
+            <h2>Proyecto 4</h2>
+            <img
+              src="https://ik.imagekit.io/aitoroa/proyectofinal/Poster%20Tipogr%C3%A1fico.jpg?updatedAt=1747147351131"
+              style="width: 100%; margin-bottom: 1rem"
+            />
+            <p>a</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>Formulario o enlaces de contacto.</p>
+    </section>
   </body>
 </html>
